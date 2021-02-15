@@ -161,31 +161,30 @@ module.exports = {
             //     // todo: run your first app
             //   ],
             // },
-            // {
-            //   type: 'category',
-            //   collapsed: true,
-            //   label: 'Guides',
-            //   items: [
-            //     'php-sync-vs-async-start',
-            //     'php-workers',
-            //
-            //     // todo: workflow interface
-            //     // todo: creating workflows
-            //
-            //     'php-activity-interface',
-            //     'php-implementing-activities',
-            //     'php-child-workflows',
-            //     'php-retries',
-            //     'php-error-handling',
-            //     'php-signals',
-            //     'php-continue-as-new',
-            //     'php-side-effect',
-            //     'php-queries',
-            //     'php-activity-async-completion',
-            //     'php-versioning',
-            //     'php-distributed-cron',
-            //   ],
-            // },
+            {
+              type: 'category',
+              collapsed: true,
+              label: 'Guides',
+              items: [
+                'php-sync-vs-async-start',
+                'php-workers',
+                'php-workflow-interface',
+                // todo: creating workflows
+
+                'php-activity-interface',
+                'php-implementing-activities',
+                'php-child-workflows',
+                'php-retries',
+                'php-error-handling',
+                'php-signals',
+                'php-continue-as-new',
+                'php-side-effect',
+                'php-queries',
+                'php-activity-async-completion',
+                'php-versioning',
+                'php-distributed-cron',
+              ],
+            },
           ],
         },
         {
